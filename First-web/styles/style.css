@@ -1,0 +1,41 @@
+html  {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #00539f;
+}
+
+h1  {
+    margin: 50;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 5px 5px 2px black;
+    font-size: 60px;
+    text-align: center;
+}
+
+p, li   {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img {
+    height: 300px;
+    width: 200px;
+    display: block;
+    margin: 0 auto; /* 图像居中 */
+    text-align: center; /* 对图片不能用这个属性调整对中*/
+}
+
+body    {
+    width: 600px;
+    height: 1300px;
+    margin: 0 auto;
+    background-color: #ff9500;
+    border: 5px solid black;
+}
+
+a:hover {
+    color: green;
+    background-color: cyan;
+}
